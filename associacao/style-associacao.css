@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #ffd700; /* Vibrant honey color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.producao {
+    background-color: #ffe59e; /* Vibrant honey shade */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.producao p {
+    margin: 0;
+}
+
+.acumulo {
+    background-color: #ffe59e; /* Vibrant honey shade */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.acumulo h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.acumulo p {
+    margin: 0;
+}
+
+.graph {
+    background-color: #ffe59e; /* Vibrant honey shade */
+    padding: 10px;
+}
+
+.graph p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+canvas {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #ccc;
+    background-color: black;
+}
